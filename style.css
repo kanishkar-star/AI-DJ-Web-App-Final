@@ -1,0 +1,78 @@
+.heading{
+    margin : 0;
+    width:100%;
+    font-size:23px;
+}
+
+.heading span{
+    font-size:18px;
+    color:black;
+}
+
+body{
+    background-size:cover;
+}
+
+.div_speed{
+    float:left;
+}
+
+.disk_image{
+    width:200px;
+    border:100px;
+}
+
+#speed{
+    font-size:23px;
+    margin:15px;
+}
+
+.div_volume{
+    float:right
+}
+
+#volume{
+    font-size:23px;
+    margin:15px;
+}
+
+.copy_right_footer{
+    line-height:3;
+    width:100%;
+    bottom:0px;
+    position:fixed;
+    background-color:grey;
+    text-align:center;
+    color:white;
+}
+
+.play_button{
+    white-space:inline;
+    font-size:25px;
+}
+
+canvas{
+    border:5px inset white;
+    border-radius:20px;
+    box-shadow:10px 10px 10px rgb(255, 115, 115);
+    margin-top:35px;
+}
+
+canvas:hover{
+    box-shadow:10px 10px 10px rgb(255, 194, 115);
+    border:5px outset white;
+}
+
+.play_button:hover{
+background-color: darkgreen !important;
+}
+
+.copy_right_footer:hover{
+    line-height:3;
+    width:100%; 
+    bottom:0px;
+    position:fixed;
+    background-color:black;
+    text-align:center;
+    color:white;
+}
